@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=" author" content="Anna V.">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="zoológico, serv, melhor">
+    <meta name="description" content="O melhor zoológico do Brasil com os melhores preços!">
+    <title>Animais</title>
+    <link rel="shortcut icon" href="img/icons8-veado-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/zoo-serv-logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="indexingressos.html">INGRESSOS</a></li>
+                <li><a href="indexconta.html">CONTA</a></li>
+                <li><a href="indexanimais.html">ANIMAIS</a></li>
+                <li><a href="indexcontato.html">CONTATO</a></li>
+            </ul>
+           </div>    
+           <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+      
+    </section>
+
+
+<!--------animais page galeria-------->
+
+
+  
+    <h2 class="heading">Galeria</h2>
+
+    <div class="slideshow-container">
+
+        <div class="slides">
+
+           
+                <div class="slide">
+                    <img src="img/leaoo.jpg" style="width: 500px;" alt="">
+                </div>
+          
+
+                <div class="slide">
+                    <img src="img/leaob.jpg" style="width: 500px;" alt="">
+                </div>
+            
+            
+                <div class="slide">
+                    <img src="img/leoas.jpg" style="width: 500px;">
+                </div>
+            
+            
+                <div class="slide">
+                    <img src="img/tigre3.jpg" style="width: 500px;"alt="">
+                </div>
+          
+
+                <div class="slide">
+                    <img src="img/macaco comendo.jpg" style="width: 500px;" alt="">
+                </div>
+        
+
+           
+
+    
+    </div>
+
+
+
+<!----------------------animais page fotos----------------------->
+
+<section class="animal" id="animal">
+    <h3 class="heading">Destaques da Semana</h3>
+
+    <div class="box-containerys">
+        <div class="box">
+            <img src="img/cobra2.jpg" style="width: 400px; height: 600px;" alt="">
+            <div class="content">
+                <h4>Piton-real</h4>
+                <a href="#" class="btn">Ver Detalhes</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/pinguin3.jpg" style="width: 400px; height: 600px;" alt="">
+            <div class="content">
+                <h4>Pinguins de Magalhães</h4>
+                <a href="#" class="btn">Ver Detalhes</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="img/gorilla.jpg" style="width: 400px; height: 600px;" alt="">
+            <div class="content"> 
+                <h4>Gorila</h4>
+                <a href="#" class="btn">Ver Detalhes</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!-----rodapé----->
+<section class="rodape">
+    <h4>Sobre Nós</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus reiciendis, ab provident, voluptatum facere nam voluptas magnam illo architecto <br> quidem repellat asperiores? Ut tenetur provident ipsam pariatur fugiat consectetur eos!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>© ZooServ | todos os direitos reservados | 2024</p>
+</section>
+
+
+
+<!-----js para o menu---->
+    <script src="script.js">
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+    
+</body>
+</html>
